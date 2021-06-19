@@ -18,3 +18,7 @@ OUTPUT
 0        1      AD
 1        2      BC
 2        3       E
+
+
+
+# ref: https://www.geeksforgeeks.org/concatenate-strings-from-several-rows-using-pandas-groupby/
