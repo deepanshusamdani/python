@@ -34,8 +34,8 @@ aLen = len(a)
 for i, j in enumerate(a):
     if i != (aLen-1):
         if a[i+1] == a[i]:
-            c[i] = b[i]
-            c[i+1] = b[i]+b[i+1]
+            #c[i] = b[i]
+            c[i+1] = c[i]+c[i+1]
         else:
             c[i+1] = b[i+1]
     else:
